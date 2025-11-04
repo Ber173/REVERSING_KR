@@ -1,10 +1,11 @@
 # WRITE-UPS
 
-## Thực thi thử chương trình với chuỗi bất kỳ 
+## EASY_CRACKME
+### Thực thi thử chương trình với chuỗi bất kỳ 
 
 ![alt text](image.png)
 
-## Dùng IDA để tìm kiếm chuỗi password đúng 
+### Dùng IDA để tìm kiếm chuỗi password đúng 
 
 - Nhấn Shift + F12 để tìm kiếm các chuỗi trong chương trình
 - Tìm kiếm chuỗi ``Incorrect``.
@@ -29,7 +30,7 @@
 - `strncmp(&String[2], Str2, 2u)` tức là so sánh chuỗi mà ta nhập ở bắt đầu ở vị trí thứ 2 với chuỗi `Str2` với độ dài kí tự là ``2``, tương ứng với ``strcmp(&String[4], aR3versing)``.
 - Bắt đầu so khớp các chuỗi ta được một chuỗi Password như sau: ``Ea5yR3versing``.
 
-## Nhập chuỗi vừa tìm vào Password và đã đăng nhập thành công 
+### Nhập chuỗi vừa tìm vào Password và đã đăng nhập thành công 
 
 ![alt text](image-6.png)
 
