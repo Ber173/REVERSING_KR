@@ -1,11 +1,10 @@
-# WRITE-UPS
 
-## EASY_CRACKME
-### Thực thi thử chương trình với chuỗi bất kỳ 
+# EASY_CRACKME
+## Thực thi thử chương trình với chuỗi bất kỳ 
 
 ![alt text](image.png)
 
-### Dùng IDA để tìm kiếm chuỗi password đúng 
+## Dùng IDA để tìm kiếm chuỗi password đúng 
 
 - Nhấn Shift + F12 để tìm kiếm các chuỗi trong chương trình
 - Tìm kiếm chuỗi ``Incorrect``.
@@ -30,16 +29,16 @@
 - `strncmp(&String[2], Str2, 2u)` tức là so sánh chuỗi mà ta nhập ở bắt đầu ở vị trí thứ 2 với chuỗi `Str2` với độ dài kí tự là ``2``, tương ứng với ``strcmp(&String[4], aR3versing)``.
 - Bắt đầu so khớp các chuỗi ta được một chuỗi Password như sau: ``Ea5yR3versing``.
 
-### Nhập chuỗi vừa tìm vào Password và đã đăng nhập thành công 
+## Nhập chuỗi vừa tìm vào Password và đã đăng nhập thành công 
 
 ![alt text](image-6.png)
 
 ---> Flag: ``Ea5yR3versing``
 ---
 
-## Easy Keygen
+# Easy Keygen
 
-### Đọc nội dung trong file README
+## Đọc nội dung trong file README
 
 ```
 ReversingKr KeygenMe
@@ -49,7 +48,7 @@ Find the Name when the Serial is 5B134977135E7D13
 ```
 - Ta thấy có một chuỗi số là `5B134977135E7D13`.
 
-### Thực thi chương trình
+## Thực thi chương trình
 
 ![alt text](image-7.png)
 
@@ -96,7 +95,7 @@ Lưu ý: trong quá trình giải bài, tôi đã đổi tên các biến để 
 
 ![alt text](image-12.png)
 
-### Code để reverse InputName như sau
+## Code để reverse InputName như sau
 
 ```!code
 serial = bytes.fromhex('5B134977135E7D13')
