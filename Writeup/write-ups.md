@@ -107,3 +107,23 @@ print(''.join(output))
 ```
 ---> Flag: ``K3yg3nm3``.
 
+
+# MUSIC PLAYER
+- Ta có các file sau
+<img width="630" height="77" alt="image" src="https://github.com/user-attachments/assets/69fb1ed0-f877-492d-bd68-2769d6e5a9aa" />
+
+
+- Ta có file ReadMe
+```
+This MP3 Player is limited to 1 minutes.
+You have to play more than one minute.
+
+There are exist several 1-minute-check-routine.
+After bypassing every check routine, you will see the perfect flag.
+```
+- Kiếm thử một đoạn nhạc dài hơn 1 phút và ``open``
+<img width="329" height="177" alt="image" src="https://github.com/user-attachments/assets/0cbbd44c-b800-4627-bad2-6b5047122761" />
+---> Output bất thường.
+
+- Phân tích bằng IDA
+  
